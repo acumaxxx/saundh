@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="x-ua-compatible" content="ie=edge"/>
   <link rel="shortcut icon" href="img/favicon.png" type=""/>
-  <title> SAUNDH || Contact us</title>
+  <title> This title to just check commite is working or not</title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
   <link rel="stylesheet" type="text/css" href="css/aos.css"/>
