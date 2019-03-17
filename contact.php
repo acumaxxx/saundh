@@ -29,7 +29,7 @@
    <div class="container">
       <div class="row">
           <div class="contact_form active">
-              <h2>Feedback/Query</h2>
+              <h2>Feedback/Query rohit</h2>
               <p>Need help? Have a question about an order, or about getting in touch? <span>We're always happy to hear from you.</span></p>
               <form>
                 <div class="form-group contact_one">
