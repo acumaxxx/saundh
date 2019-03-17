@@ -1,0 +1,226 @@
+footer {
+    background: url(../img/footer_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:32px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.footer_logo img {
+    margin: 0 auto;
+}
+footer .row>p {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 3%;
+    font-weight: 300;
+}
+footer .subscribe {
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+footer .subscribe input {
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    padding: 3px 0 3px 10px;
+    width: 22%;
+    outline: navajowhite;
+    margin-right: 1%;
+    color: #fff;
+}
+footer .subscribe input::placeholder{
+    color:#fbfbfb !important;
+}
+footer .subscribe button {
+    border-color: #fff;
+    border-radius: 0;
+    /* padding: 5px 10px 1px; */
+    font-weight: 300;
+    border: 1px solid #fff;
+}
+footer .subscribe button a {
+    color: #fff !important;
+    padding: 5px 10px 4px;
+}
+footer .row>ul {
+    text-align: center;
+    padding: 25px 0;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    width: 82%;
+    margin: 0 auto;
+}
+footer .row>ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 4%;
+	font-weight: 400;
+}
+footer .row>ul li a {
+    color: #fff;
+}
+footer .row>ul li a:hover{
+    color: #e2e2e2;
+}
+footer ul.second_f_ul{
+     border-bottom:0px solid #fff;
+    border-top: 0px solid #fff;
+    padding:20px 0;
+}
+.social_link {
+    text-align: center;
+    margin-top: 2%;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.social_link a {
+    display: inline-block;
+    margin: 0 10px;
+}
+.social_link a i {
+    /* padding: 0 33%; */
+    color: #fff;
+    font-size: 22px;
+    display: inline-block;
+}
+.social_link a i:hover{
+    color: #00829a;
+}
+footer .accordion, .copyright{
+    display: none;   
+}
+
+@media screen and (max-width: 991px){
+footer {
+    padding: 17px 0;
+}
+}
+
+@media screen and (max-width: 767px){
+ul.second_f_ul, footer .row>ul{
+    display: none;
+}
+.footer_menu1 ul.second_f_ul{
+    display: block;
+    padding: 0 0;
+}
+.footer_logo img {
+    width: 100px;
+}
+.copyright {
+    text-align: center;
+    color: #fff;
+    margin-top: 14px;
+    display: block;
+}
+footer {
+    padding: 23px 0;
+}
+footer .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.footer_logo {
+    order: -1;
+}
+.social_link {
+    order: -1;
+    padding: 6px 0;
+    height: 34px;
+}
+.social_link>a {
+    display: inline-block;
+}
+.social_link a i {
+    padding: 0 %;
+    font-size: 18px;
+    display: inline-block;
+}
+footer .subscribe {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    margin-top: 0;
+}
+footer .subscribe input {
+    width: 82%;
+    margin-right: 0;
+}
+footer .subscribe button {
+    width: 100px;
+    letter-spacing: 2px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+footer .row>p {
+    font-size: 14px;
+    padding-top: 9px;
+    border-top: 1px solid #fff;
+}
+footer .accordion {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5%;
+    display: block;
+}
+footer .accordion-toggle {
+    cursor: pointer;
+    margin: 0;
+    padding: 10px 0;
+    position: relative;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    color: #fff;
+}
+footer .accordion-toggle.active:after{
+    content:"-";
+    position:absolute;
+    right:8px;
+    top:10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+footer .accordion-toggle:before {
+    content: "+";
+    position: absolute;
+    right: 8px;
+    top: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+footer .accordion-toggle.active:before{
+    display:none;
+}
+footer .accordion-content {
+    display: none;
+    padding: 0px 5%;
+}
+footer .accordion-content ul li {
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+    line-height: 23px;
+    margin-bottom: 14px;
+    font-size: 13px;
+}
+footer .accordion-content ul li a {
+    color: #fff;
+}
+
+
+
+}    

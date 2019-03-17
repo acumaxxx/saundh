@@ -1,0 +1,200 @@
+@font-face {
+  font-family: 'saundhicon';
+  src:  url('../fonts/saundhicon.eot?khf8ut');
+  src:  url('../fonts/saundhicon.eot?khf8ut#iefix') format('embedded-opentype'),
+    url('../fonts/saundhicon.ttf?khf8ut') format('truetype'),
+    url('../fonts/saundhicon.woff?khf8ut') format('woff'),
+    url('../fonts/saundhicon.svg?khf8ut#saundhicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'saundhicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-saundhsearch-icon:before {
+  content: "\e91d";
+}
+.icon-saundharrow-2:before {
+  content: "\e900";
+}
+.icon-saundharrow:before {
+  content: "\e901";
+}
+.icon-saundhcut-or-end:before {
+  content: "\e902";
+}
+.icon-saundhdollar-icon:before {
+  content: "\e903";
+}
+.icon-saundhdrop-down:before {
+  content: "\e904";
+}
+.icon-saundhfacebook-icon-black:before {
+  content: "\e905";
+}
+.icon-saundhfacebook-icon-color:before {
+  content: "\e906";
+}
+.icon-saundhinsta-icon-black:before {
+  content: "\e907";
+}
+.icon-saundhinsta-icon-color:before {
+  content: "\e908";
+}
+.icon-saundhlinkedin-icon-black:before {
+  content: "\e90a";
+}
+.icon-saundhlinkedin-icon-color:before {
+  content: "\e90b";
+}
+.icon-saundhlocation:before {
+  content: "\e90c";
+}
+.icon-saundhlogin-or-register:before {
+  content: "\e90d";
+}
+.icon-saundhmenu:before {
+  content: "\e90e";
+}
+.icon-saundhpause-button:before {
+  content: "\e90f";
+}
+.icon-saundhpinterest-icon-black:before {
+  content: "\e910";
+}
+.icon-saundhpinterest-icon-color:before {
+  content: "\e911";
+}
+.icon-saundhplay-button:before {
+  content: "\e912";
+}
+.icon-saundhremove-or-bin:before {
+  content: "\e913";
+}
+.icon-saundhrupee-icon:before {
+  content: "\e914";
+}
+.icon-saundhshopping-bag:before {
+  content: "\e915";
+}
+.icon-saundhtwitter-icon-black:before {
+  content: "\e916";
+}
+.icon-saundhtwitter-icon-color:before {
+  content: "\e917";
+}
+.icon-saundhwhatsapp-icon-black:before {
+  content: "\e918";
+}
+.icon-saundhwhatsapp-icon-color:before {
+  content: "\e919";
+}
+.icon-saundhwhishlist-2-icon:before {
+  content: "\e91a";
+}
+.icon-saundhwishlist:before {
+  content: "\e91b";
+}
+.icon-saundhpencil:before {
+  content: "\e909";
+}
+.icon-saundhpodcast:before {
+  content: "\e91c";
+}
+.icon-saundhcredit-card:before {
+  content: "\e93f";
+}
+.icon-saundhphone:before {
+  content: "\e942";
+}
+.icon-saundhaddress-book:before {
+  content: "\e944";
+}
+.icon-saundhbell:before {
+  content: "\e951";
+}
+.icon-saundhstopwatch:before {
+  content: "\e952";
+}
+.icon-saundhcalendar:before {
+  content: "\e953";
+}
+.icon-saundhbubbles:before {
+  content: "\e96c";
+}
+.icon-saundhbubbles3:before {
+  content: "\e96f";
+}
+.icon-saundhquotes-left:before {
+  content: "\e977";
+}
+.icon-saundhquotes-right:before {
+  content: "\e978";
+}
+.icon-saundhzoom-in:before {
+  content: "\e987";
+}
+.icon-saundhzoom-out:before {
+  content: "\e988";
+}
+.icon-saundhenlarge2:before {
+  content: "\e98b";
+}
+.icon-saundhshrink2:before {
+  content: "\e98c";
+}
+.icon-saundhbin:before {
+  content: "\e9ac";
+}
+.icon-saundhlink:before {
+  content: "\e9cb";
+}
+.icon-saundheye:before {
+  content: "\e9ce";
+}
+.icon-saundheye-blocked:before {
+  content: "\e9d1";
+}
+.icon-saundhshare2:before {
+  content: "\ea82";
+}
+.icon-saundhmail3:before {
+  content: "\ea85";
+}
+.icon-saundhgoogle:before {
+  content: "\ea88";
+}
+.icon-saundhgoogle-plus:before {
+  content: "\ea8b";
+}
+.icon-saundhhangouts:before {
+  content: "\ea8e";
+}
+.icon-saundhfacebook:before {
+  content: "\ea90";
+}
+.icon-saundhinstagram:before {
+  content: "\ea92";
+}
+.icon-saundhwhatsapp:before {
+  content: "\ea93";
+}
+.icon-saundhtwitter:before {
+  content: "\ea96";
+}
+.icon-saundhpaypal:before {
+  content: "\ead8";
+}
